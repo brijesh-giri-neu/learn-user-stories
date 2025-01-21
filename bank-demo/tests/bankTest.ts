@@ -49,7 +49,7 @@ catch(e) {
 }
 
 // Deposit Money tests
-console.log('Deposit Money tests. Account - 1234567890');
+console.log('\nDeposit Money tests. Account - 1234567890');
 try {
     const newBalance = bank.deposit(1234567890, 1500); // Deposit 1500 into account 1234567890
     if (newBalance === 6500) { // Previous balance: 5000
@@ -98,7 +98,7 @@ try {
 }
 
 // Withdraw Money tests
-console.log('Withdraw Money tests. Account - 1234567891');
+console.log('\nWithdraw Money tests. Account - 1234567891');
 // Scenario 1: Success
 try {
     const newBalance = bank.withdraw(1234567891, 2000); // Withdraw 2000 from account 1234567891
@@ -160,7 +160,7 @@ try {
 }
 
 // Check Balance tests
-console.log('Check Balance tests.');
+console.log('\nCheck Balance tests.');
 // Scenario 1: Success (Balance Check for Account 1234567891)
 try {
     const balance = bank.checkBalance(1234567891); // Check balance for account 1234567891
