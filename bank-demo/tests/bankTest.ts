@@ -165,7 +165,7 @@ console.log('Check Balance tests.');
 try {
     const balance = bank.checkBalance(1234567891); // Check balance for account 1234567891
     if (balance === 8000) { // Expected balance after withdrawal tests
-        console.log('Scenario 1: Passed for Account 1234567891');
+        console.log('Scenario 1: Check balance for Account 1234567891 - Passed');
     } else {
         console.log(`Scenario 1: Failed for Account 1234567891. Expected 8000, but got ${balance}`);
     }
@@ -181,7 +181,7 @@ try {
 try {
     const balance = bank.checkBalance(1234567890); // Check balance for account 1234567890
     if (balance === 6500) { // Expected balance after withdrawal tests
-        console.log('Scenario 1: Passed for Account 1234567890');
+        console.log('Scenario 1: Check balance for Account 1234567890 - Passed');
     } else {
         console.log(`Scenario 1: Failed for Account 1234567890. Expected 6500, but got ${balance}`);
     }
